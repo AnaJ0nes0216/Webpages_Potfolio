@@ -1,0 +1,109 @@
+body {
+  font-size: 16;
+  font-family: "Palatino Linotype";
+  color: #345437;
+}
+
+main {
+  padding: 10;
+  margin: 7px 3px;
+  background-color:#dbd4b8;
+  width: auto;
+  height: auto;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+header {
+  text-align: center;
+  font-size: 18;
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background-color: white;
+  margin: 0;
+  padding: 12 10;
+}
+
+figcaption {
+  text-align: center;
+  padding-top: 10;
+}
+
+section {
+  margin: 10;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  max-width: 92.5%
+  
+}
+
+#personal-info, #career, #charity {
+  border: 2px solid #345437;
+  display: inline-block;
+  padding: 12px 20px;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  justify-content: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 24;
+  margin: 0;
+  padding: 0;
+}
+
+#awards-label {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#awards {
+  text-align: center;
+  list-style-type: none;
+  margin-top: 0;
+  margin-left: -40;
+}
+
+blockquote {
+  margin: 0;
+  text-indent: 30;
+  display: block;
+  text-align: left;
+}
+
+#career, #charity {
+  border-top: none;
+}
+
+#career-timeline, #movies, #foundations {
+  text-align: left;
+}
+
+#career-timeline p {
+  text-indent: 30;
+}
+
+#timeline-1 {
+  margin-bottom: -15;
+}
+
+#final-statement {
+  text-align: center;
+  font-size: 18
+}
